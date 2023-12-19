@@ -16,11 +16,22 @@
 
 1. Fast-forward - Ускоренное слияние
 
-git checkout -b task-2 (переключаемся на ветку task-2)
+git checkout -b task-2 (создаем и переключаемся на ветку task-2)
 
 git checkout master (переходим на нашу основную ветку)
 
 git merge task-2 (слияние новый ветки в мастер) - ускоренное слияние
+
+2. Трехстороннее слияние
+
+git checkout -b task-3 (создаем новую ветку и переключаемся на ветку task-3)
+
+git checkout master (переходим на нашу основную ветку)
+
+git commit -am "pretty css"
+
+git checkout task-3 (переключаемся на нашу ветку task-3)
+
 
 
 
