@@ -16,3 +16,9 @@ git push -u origin имя-ветки
 git push -u origin HEAD
 
 Будет создана удаленная ветка с названием имя-ветки на основе локальной
+
+2. git pull
+
+Выполняет под капотом 2 команды:
+
+git fetch > git merge origin/branch
