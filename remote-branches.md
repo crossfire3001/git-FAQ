@@ -22,3 +22,7 @@ git push -u origin HEAD
 Выполняет под капотом 2 команды:
 
 git fetch > git merge origin/branch
+
+3. git fetch
+
+получение актуальной информации с сервера
